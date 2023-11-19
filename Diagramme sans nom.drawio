@@ -1,6 +1,6 @@
-<mxfile modified="2023-11-19T07:34:46.438Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xw2KFtAHHV9NpT0TFNxa" version="21.8.0" type="github">
+<mxfile modified="2023-11-19T07:35:35.251Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AXgqoYex_XyVGvoqmiWu" version="21.8.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1313" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="636" dy="324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,12 +74,12 @@
           <mxGeometry x="873" y="194" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="H5zEyOtSJN47pwm0Rogg-30" value="AWS&lt;br&gt;DynamoDB" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;labelBackgroundColor=#ffffff;spacingTop=5;" vertex="1" parent="1">
-          <mxGeometry x="850.5000000000002" y="402.5" width="78" height="78" as="geometry" />
+          <mxGeometry x="873.0000000000002" y="402.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="H5zEyOtSJN47pwm0Rogg-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8qEblfI-CT0OiRXfmeG9-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="298.5" as="sourcePoint" />
-            <mxPoint x="850" y="449" as="targetPoint" />
+            <mxPoint x="870" y="450" as="targetPoint" />
             <Array as="points">
               <mxPoint x="754" y="448.5" />
             </Array>
