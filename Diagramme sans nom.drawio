@@ -1,4 +1,4 @@
-<mxfile modified="2023-11-19T07:24:23.622Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SJC0NlC6-IhgqiLWGFpY" version="21.8.0" type="github">
+<mxfile modified="2023-11-19T07:29:48.238Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JxKIHZcIA4I47CqZLLq8" version="21.8.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="538" dy="274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
           <mxGeometry x="720" y="198.5" width="67.5" height="81" as="geometry" />
         </mxCell>
         <mxCell id="H5zEyOtSJN47pwm0Rogg-1" value="AWS IOT-CORE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="693.75" y="287" width="120" height="30" as="geometry" />
+          <mxGeometry x="693.75" y="168.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H5zEyOtSJN47pwm0Rogg-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -70,23 +70,11 @@
             <mxPoint x="620" y="298.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H5zEyOtSJN47pwm0Rogg-28" value="AWS EC2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="H5zEyOtSJN47pwm0Rogg-28" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="852" y="194" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="H5zEyOtSJN47pwm0Rogg-30" value="AWS&lt;br&gt;DynamoDB" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;labelBackgroundColor=#ffffff;spacingTop=5;" vertex="1" parent="1">
           <mxGeometry x="850.5000000000002" y="402.5" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="H5zEyOtSJN47pwm0Rogg-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8qEblfI-CT0OiRXfmeG9-2" target="H5zEyOtSJN47pwm0Rogg-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="78.5" as="sourcePoint" />
-            <mxPoint x="780" y="48.5" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H5zEyOtSJN47pwm0Rogg-35" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H5zEyOtSJN47pwm0Rogg-31">
-          <mxGeometry x="-0.2526" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="H5zEyOtSJN47pwm0Rogg-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8qEblfI-CT0OiRXfmeG9-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -97,8 +85,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="H5zEyOtSJN47pwm0Rogg-33" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Node-red dashboard&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="148" width="100" height="60.5" as="geometry" />
+        <mxCell id="H5zEyOtSJN47pwm0Rogg-37" value="MQTT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="837.5" y="240.03" />
+              <mxPoint x="837.5" y="240.03" />
+            </Array>
+            <mxPoint x="787.5" y="240.03" as="sourcePoint" />
+            <mxPoint x="850" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H5zEyOtSJN47pwm0Rogg-38" value="AWS EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="829.5" y="168.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H5zEyOtSJN47pwm0Rogg-39" value="Node-red dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="829.5" y="287" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
